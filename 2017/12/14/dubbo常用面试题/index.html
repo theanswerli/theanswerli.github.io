@@ -6,17 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://theanswerli.githup.io">
-  <title>Tag: blogs | 沧海一粟</title>
+  <title>dubbo常用面试题 | 沧海一粟</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="theanswerli&apos;s first blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="沧海一粟">
-<meta property="og:url" content="https://theanswerli.githup.io/tags/blogs/index.html">
+  <meta name="description" content="1、默认使用的是什么通信框架，还有别的选择吗?答：默认使用dubbo通讯协议，单一长连接，异步通讯，适合小数据量 大并发的场景 或者 消费者数量远大于提供者的场景；不适合传文件、视频等； 还支持rmi、hessian、http、webservice、thrift、memcached、redis等协议 2、服务调用是阻塞的吗？答：异步通讯，非阻塞； 3、一般使用什么注册中心？还有别的选择吗？答：支持">
+<meta name="keywords" content="dubbo,blogs">
+<meta property="og:type" content="article">
+<meta property="og:title" content="dubbo常用面试题">
+<meta property="og:url" content="https://theanswerli.githup.io/2017/12/14/dubbo常用面试题/index.html">
 <meta property="og:site_name" content="沧海一粟">
-<meta property="og:description" content="theanswerli&apos;s first blog">
+<meta property="og:description" content="1、默认使用的是什么通信框架，还有别的选择吗?答：默认使用dubbo通讯协议，单一长连接，异步通讯，适合小数据量 大并发的场景 或者 消费者数量远大于提供者的场景；不适合传文件、视频等； 还支持rmi、hessian、http、webservice、thrift、memcached、redis等协议 2、服务调用是阻塞的吗？答：异步通讯，非阻塞； 3、一般使用什么注册中心？还有别的选择吗？答：支持">
+<meta property="og:updated_time" content="2017-12-14T14:48:23.492Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="沧海一粟">
-<meta name="twitter:description" content="theanswerli&apos;s first blog">
+<meta name="twitter:title" content="dubbo常用面试题">
+<meta name="twitter:description" content="1、默认使用的是什么通信框架，还有别的选择吗?答：默认使用dubbo通讯协议，单一长连接，异步通讯，适合小数据量 大并发的场景 或者 消费者数量远大于提供者的场景；不适合传文件、视频等； 还支持rmi、hessian、http、webservice、thrift、memcached、redis等协议 2、服务调用是阻塞的吗？答：异步通讯，非阻塞； 3、一般使用什么注册中心？还有别的选择吗？答：支持">
   
     <link rel="alternative" href="/atom.xml" title="沧海一粟" type="application/atom+xml">
   
@@ -148,36 +150,92 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-dubbo常用面试题" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/12/14/dubbo常用面试题/" class="archive-article-date">
-  	<time datetime="2017-12-14T14:41:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-12-14</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/12/14/dubbo常用面试题/">dubbo常用面试题</a>
+    <h1 class="article-title" itemprop="name">
+      dubbo常用面试题
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2017/12/14/dubbo常用面试题/" class="archive-article-date">
+  	<time datetime="2017-12-14T14:41:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-12-14</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="1、默认使用的是什么通信框架，还有别的选择吗"><a href="#1、默认使用的是什么通信框架，还有别的选择吗" class="headerlink" title="1、默认使用的是什么通信框架，还有别的选择吗?"></a>1、默认使用的是什么通信框架，还有别的选择吗?</h3><pre><code>答：默认使用dubbo通讯协议，单一长连接，异步通讯，适合小数据量 大并发的场景 或者 消费者数量远大于提供者的场景；不适合传文件、视频等；
+还支持rmi、hessian、http、webservice、thrift、memcached、redis等协议
+</code></pre><h3 id="2、服务调用是阻塞的吗？"><a href="#2、服务调用是阻塞的吗？" class="headerlink" title="2、服务调用是阻塞的吗？"></a>2、服务调用是阻塞的吗？</h3><pre><code>答：异步通讯，非阻塞；
+</code></pre><h3 id="3、一般使用什么注册中心？还有别的选择吗？"><a href="#3、一般使用什么注册中心？还有别的选择吗？" class="headerlink" title="3、一般使用什么注册中心？还有别的选择吗？"></a>3、一般使用什么注册中心？还有别的选择吗？</h3><pre><code>答：支持的注册中心有mulicast、zookeeper、redis、sample，推荐使用zookeeper。
+</code></pre><h3 id="4、默认使用什么序列化框架，你知道的还有哪些？"><a href="#4、默认使用什么序列化框架，你知道的还有哪些？" class="headerlink" title="4、默认使用什么序列化框架，你知道的还有哪些？"></a>4、默认使用什么序列化框架，你知道的还有哪些？</h3><pre><code>答：默认使用hessian序列化，
+还有dubbo序列化（性能高、不成熟）、json序列化（性能不如hessian）、java序列化（性能差）；
+</code></pre><h3 id="5、服务提供者能实现失效踢出是什么原理？"><a href="#5、服务提供者能实现失效踢出是什么原理？" class="headerlink" title="5、服务提供者能实现失效踢出是什么原理？"></a>5、服务提供者能实现失效踢出是什么原理？</h3><pre><code>答：以zookeeper注册中心为例，有一个heartbeat-monitor心跳检测线程，检查提供者是否存活，如果检测不到心跳，就把提供者从提供者列表中移除，反之加入。
+</code></pre><h3 id="6、服务上线怎么不影响旧版本？"><a href="#6、服务上线怎么不影响旧版本？" class="headerlink" title="6、服务上线怎么不影响旧版本？"></a>6、服务上线怎么不影响旧版本？</h3><pre><code>答：在配置提供者和消费者的时候，配置版本号即可（version=“”）；
+推荐半数升级，先升级一半提供者，然后消费者，再升级剩下的一半提供者，消费者。
+</code></pre><h3 id="7、如何解决服务调用链过长的问题？"><a href="#7、如何解决服务调用链过长的问题？" class="headerlink" title="7、如何解决服务调用链过长的问题？"></a>7、如何解决服务调用链过长的问题？</h3><pre><code>答：这个还是应该结合业务来讲，一旦某个业务操作的调用连过长的时候，首先应该考虑这块儿业务是否应该整合一下了；
+dubbo是业务型框架，一个服务最好是一个完整的业务功能；
+</code></pre><h3 id="8、说说核心的配置有哪些？"><a href="#8、说说核心的配置有哪些？" class="headerlink" title="8、说说核心的配置有哪些？"></a>8、说说核心的配置有哪些？</h3><pre><code>答：&lt;dubbo:application name = &quot;&quot;&gt;、&lt;dubbo:registry&gt;、&lt;dubbo:protocol&gt;、&lt;dubbo:reference&gt;、&lt;dubbo:service&gt;等等
+</code></pre><h3 id="9、dubbo推荐用什么协议？"><a href="#9、dubbo推荐用什么协议？" class="headerlink" title="9、dubbo推荐用什么协议？"></a>9、dubbo推荐用什么协议？</h3><pre><code>答：dubbo协议
+</code></pre><h3 id="10、同一个服务多个注册的情况下可以直连某一个服务吗？"><a href="#10、同一个服务多个注册的情况下可以直连某一个服务吗？" class="headerlink" title="10、同一个服务多个注册的情况下可以直连某一个服务吗？"></a>10、同一个服务多个注册的情况下可以直连某一个服务吗？</h3><pre><code>答：可以；&lt;dubbo:reference url=&quot;&quot;&gt; url里面直接写地址就可以了，多个用逗号分隔；
+</code></pre><h3 id="11、画一画服务注册与发现的流程图"><a href="#11、画一画服务注册与发现的流程图" class="headerlink" title="11、画一画服务注册与发现的流程图"></a>11、画一画服务注册与发现的流程图</h3><pre><code>答：说dubbo的四大模块就差不多了。
+</code></pre><h3 id="12、集群容错怎么做？"><a href="#12、集群容错怎么做？" class="headerlink" title="12、集群容错怎么做？"></a>12、集群容错怎么做？</h3><pre><code>答：dubbo提供多种容错处理方式：默认是failover方式；
+failover-cluster：失败自动切换，当出现失败时，重试其他服务器，通过 retries = 2 设置重试次数。
+failfast-cluster：快速失败，只调用一次，失败则立即报错；
+failsafe-cluster：失败安全，出现异常时，直接忽略；
+failback-cluster：失败自动恢复，后台记录失败请求，并自动定时重发，（常用于消息通知操作）
+forking-cluster：并行调用多个服务器，只要一个成功则返回，适用于实时要求较高的场景，但更耗资源；通过forks=“2”设置最大并行数；
+broadcast-cluster：广播调用所有提供者，逐个调用，任意一台报错则报错；适用于通知所有提供者更新缓存或日志等本地资源信息。
+</code></pre><h3 id="13、在使用过程中都遇到了些什么问题？"><a href="#13、在使用过程中都遇到了些什么问题？" class="headerlink" title="13、在使用过程中都遇到了些什么问题？"></a>13、在使用过程中都遇到了些什么问题？</h3><pre><code>答：对外服务暴露不支持方法的重载。
+</code></pre><h3 id="14、dubbo和dubbox之间的区别？"><a href="#14、dubbo和dubbox之间的区别？" class="headerlink" title="14、dubbo和dubbox之间的区别？"></a>14、dubbo和dubbox之间的区别？</h3><pre><code>答：dubbo是阿里官方的开源rpc框架；
+dubbox是当当在dubbo基础之上做的二次开发；
+</code></pre><h3 id="15、你还了解别的分布式框架吗？"><a href="#15、你还了解别的分布式框架吗？" class="headerlink" title="15、你还了解别的分布式框架吗？"></a>15、你还了解别的分布式框架吗？</h3><pre><code>答：dubbo、dubboX、motan（sina）
+</code></pre><h3 id="16、dubbo的负载均衡策略？"><a href="#16、dubbo的负载均衡策略？" class="headerlink" title="16、dubbo的负载均衡策略？"></a>16、dubbo的负载均衡策略？</h3><pre><code>答：dubbo提供了以下负责均衡策略：
+random：随机，按权重设置随机概率；
+roundRobin：轮询，按公约后的权重设置轮询比；（如果其中一台机器卡，则会卡住）
+leastActive：最好活跃调用数，如果两台调用数相同则随机；
+consistentHash：一致性hash；相同参数的请求总是发到同一提供者；（如果提供者挂掉，会基于虚拟节点，平摊到其他提供者）。
+</code></pre><h3 id="17、dubbo如何并发控制？"><a href="#17、dubbo如何并发控制？" class="headerlink" title="17、dubbo如何并发控制？"></a>17、dubbo如何并发控制？</h3><pre><code>答：可以从服务端和客户端分别控制；（如果&lt;dubbo:service&gt;、&lt;dubbo:reference&gt;都配置的相同参数时，以reference为准）
+&lt;dubbo:service executes=&quot;10&quot; /&gt; 服务端并发不超过10个；
+&lt;dubbo:service actives=&quot;10&quot; /&gt;    客户端并发不超过10个；
+当配置&lt;dubbo:service loadbalance=&quot;leastactive&quot; /&gt;时，会调用并发数最小的提供者；
+</code></pre><h3 id="18、dubbo如何连接控制？"><a href="#18、dubbo如何连接控制？" class="headerlink" title="18、dubbo如何连接控制？"></a>18、dubbo如何连接控制？</h3><pre><code>答：&lt;dubbo:provider protocol=&quot;dubbo&quot; accepts=&quot;10&quot; /&gt; 限制服务端接受的连接不超过10个；
+&lt;dubbo:reference connections=&quot;10&quot; /&gt; 限制客户端使用的连接数不超过10个；
+</code></pre>
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢客官打赏...<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -193,7 +251,7 @@
 		</ul>
 	</div>
 
-          
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -206,70 +264,87 @@
 	</div>
 
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=https://theanswerli.githup.io/2017/12/14/dubbo常用面试题/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/06/20/my-first-blog/" class="archive-article-date">
-  	<time datetime="2017-06-20T10:18:18.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-20</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/06/20/my-first-blog/">我的第一个博客</a>
-    </h1>
-  
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">blogs</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/blog/" class="article-tag-list-link color5">blog</a>
-        		</li>
-      		
-		</ul>
-	</div>
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2017/06/22/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
 
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+
+
+
   
   
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -292,9 +367,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		root: "/",
